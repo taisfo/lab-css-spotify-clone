@@ -1,3 +1,119 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+nav {
+  position: fixed;
+  flex-direction: row-reverse;
+}
+
+.logo {
+  height: 50px;
+  width: 150px;
+  margin: 10px 10px 10px 20px;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.hero-image {
+  background-image: url("../images/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-image h1 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.hero-image p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.item {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.item h3 {
+  color: #00b172;
+}
+
+.item p {
+  font-weight: lighter;
+  color: black;
+}
+
+.container-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.container-column-item {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  align-self: center;
+}
+
+.section-color {
+  background-color: #00b172;
+  margin: 0px 30px;
+}
+.container-column-item h2,
+h3,
+p {
+  color: #fff;
+  margin: 10px;
+}
+
+.container-column-item hr {
+  border-top: solid #fff;
+  width: 230px;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+hr {
+  border-top: solid #00b172;
+  width: 250px;
+}
+
+/* .spotify-app */
 /*
 Colors:
 
